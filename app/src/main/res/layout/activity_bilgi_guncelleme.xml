@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F97F51"
+    tools:context=".Bilgi_Guncelleme">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bilgi_Guncelleme_Guncelle_Button"
+        android:layout_width="144dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="300dp"
+        android:onClick="Bilgi_Guncelleme_Guncelle"
+        android:text="GÜNCELLE"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="267dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="sans-serif"
+        android:text="BİLGİ GÜNCELLEME"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <ImageButton
+        android:id="@+id/bilgi_Guncelleme_Geri_Image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#F97F51"
+        android:onClick="Bilgi_Guncelleme_Geri_Image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="300dp"
+        android:text="Kullanıcı Adı :"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="100dp"
+        android:text="Şifre :"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bilgi_Guncelleme_Kullanici_Adi_Text"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="200dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bilgi_Guncelleme_Sifre_Text"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Yeni Şifre Giriniz"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

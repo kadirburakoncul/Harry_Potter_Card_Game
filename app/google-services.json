@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "980174331558",
+    "firebase_url": "https://projeler-f0ac5-default-rtdb.firebaseio.com",
+    "project_id": "projeler-f0ac5",
+    "storage_bucket": "projeler-f0ac5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980174331558:android:40c2faafc694e6c1fe9e67",
+        "android_client_info": {
+          "package_name": "com.kadironcul.harry_potter_card_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980174331558-7rh1vqk3t5pl4v2qn2dunggnnu0v5jd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ3i-Xfz7xv6kUUSfG3V29i7XAyU5J7Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980174331558-7rh1vqk3t5pl4v2qn2dunggnnu0v5jd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

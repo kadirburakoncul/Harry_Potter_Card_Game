@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F97F51"
+    tools:context=".Oyun_6lik">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        android:layout_marginBottom="50dp"
+        android:background="#F97F51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:useDefaultMargins="true">
+
+        <ImageView
+            android:id="@+id/image1_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/image2_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/image3_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/image4_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/image5_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="4"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/image6_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="5"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/image7_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/image8_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/image9_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/image10_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/image11_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="4"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/image12_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="5"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/image13_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/image14_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/image15_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/image16_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/image17_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="4"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/image18_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="5"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/image19_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/image20_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/image21_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/image22_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/image23_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="4"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/image24_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="5"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/image25_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/image26_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/image27_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/image28_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/image29_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="4"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/image30_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="5"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/image31_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/image32_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="1"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/image33_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="2"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/image34_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="3"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/image35_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="4"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/image36_6lik"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_column="5"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/image1_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas1_6lik"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image2_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas2_6lik"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image3_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas3_6lik"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image4_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas4_6lik"
+            app:layout_column="3"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image5_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas5_6lik"
+            app:layout_column="4"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image6_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas6_6lik"
+            app:layout_column="5"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image7_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas7_6lik"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image8_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas8_6lik"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image9_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas9_6lik"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image10_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas10_6lik"
+            app:layout_column="3"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image11_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas11_6lik"
+            app:layout_column="4"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image12_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas12_6lik"
+            app:layout_column="5"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image13_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas13_6lik"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image14_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas14_6lik"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image15_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas15_6lik"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image16_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas16_6lik"
+            app:layout_column="3"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image17_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas17_6lik"
+            app:layout_column="4"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image18_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas18_6lik"
+            app:layout_column="5"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image19_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas19_6lik"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image20_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas20_6lik"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image21_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas21_6lik"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image22_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas22_6lik"
+            app:layout_column="3"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image23_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas23_6lik"
+            app:layout_column="4"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image24_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas24_6lik"
+            app:layout_column="5"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image25_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas25_6lik"
+            app:layout_column="0"
+            app:layout_row="4"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image26_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas26_6lik"
+            app:layout_column="1"
+            app:layout_row="4"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image27_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas27_6lik"
+            app:layout_column="2"
+            app:layout_row="4"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image28_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas28_6lik"
+            app:layout_column="3"
+            app:layout_row="4"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image29_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas29_6lik"
+            app:layout_column="4"
+            app:layout_row="4"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image30_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas30_6lik"
+            app:layout_column="5"
+            app:layout_row="4"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image31_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas31_6lik"
+            app:layout_column="0"
+            app:layout_row="5"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image32_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas32_6lik"
+            app:layout_column="1"
+            app:layout_row="5"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image33_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas33_6lik"
+            app:layout_column="2"
+            app:layout_row="5"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image34_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas34_6lik"
+            app:layout_column="3"
+            app:layout_row="5"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image35_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas35_6lik"
+            app:layout_column="4"
+            app:layout_row="5"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+        <ImageView
+            android:id="@+id/image36_6lik_kapali"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="Bas36_6lik"
+            app:layout_column="5"
+            app:layout_row="5"
+            app:srcCompat="@drawable/kart_arkasi" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <ImageButton
+        android:id="@+id/oyun_6lik_Geri_Image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#F97F51"
+        android:onClick="Oyun_6lik_Geri_Image"
+        app:srcCompat="@drawable/geri" />
+
+    <TextView
+        android:id="@+id/birinci_oyuncu_skor_text_6lik"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:text="1. OYUNCU SKORU : "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <TextView
+        android:id="@+id/ikinci_oyuncu_skor_text_6lik"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="600dp"
+        android:text="2. OYUNCU SKORU : "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kalan_sure_text_6lik"
+        android:layout_width="168dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="500dp"
+        android:text="KALAN SÜRE : 45"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Baslat_Butonu_6lik"
+        android:layout_width="144dp"
+        android:layout_height="108dp"
+        android:onClick="Baslat_6lik"
+        android:text="Başla"
+        android:textColor="#000000"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Oyun_6lik_Ipucu_Image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="Oyun_6lik_Ipucu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ipucu_resim" />
+
+    <TextView
+        android:id="@+id/Oyun_6lik_Ipucu_Text"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Oyun_6lik_kapat_Image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="Oyun_6lik_Kapat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kapat_resim" />
+</androidx.constraintlayout.widget.ConstraintLayout>

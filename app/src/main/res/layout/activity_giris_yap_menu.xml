@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F97F51"
+    tools:context=".Giris_Yap_Menu">
+
+    <ImageButton
+        android:id="@+id/giris_Yap_Menu_Geri_Image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#F97F51"
+        android:onClick="Giris_Yap_Menu_Geri_Image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/giris_Yap_Menu_Coklu_Oyuncu_Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="170dp"
+        android:onClick="Giris_Yap_Menu_Coklu_Oyuncu_Button"
+        android:text="ÇOKLU OYUNCU"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/giris_Yap_Menu_Tek_Oyuncu_Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="170dp"
+        android:onClick="Giris_Yap_Menu_Tek_Oyuncu_Button"
+        android:text="TEK OYUNCU"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/giris_Yap_Menu_Oyun_Modu_2lik_Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="220dp"
+        android:onClick="Giris_Yap_Menu_Oyun_Modu_2lik_Button"
+        android:text="2*2 OYUN MODU"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/giris_Yap_Menu_Oyun_Modu_4luk_Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="Giris_Yap_Menu_Oyun_Modu_4luk_Button"
+        android:text="4*4 OYUN MODU"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/giris_Yap_Menu_Oyun_Modu_6lik_Button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        android:onClick="Giris_Yap_Menu_Oyun_Modu_6lik_Button"
+        android:text="6*6 OYUN MODU"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/giris_Yap_Menu_Oyuna_Basla_Button"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="Giris_Yap_Menu_Oyuna_Basla_Button"
+        android:text="Oyuna Başla"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/giris_Yap_Menu_Ayarlar_Image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="#F97F51"
+        android:onClick="Giris_Yap_Menu_Ayarlar_Image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ayarlar_resim" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
